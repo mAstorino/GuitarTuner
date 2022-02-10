@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondary_color"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewHighE"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:clickable="false"
+        android:gravity="center|left"
+        android:text="Waiting..."
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.729"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952" />
+
+    <TextView
+        android:id="@+id/textViewB"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:clickable="false"
+        android:gravity="center|left"
+        android:text="Waiting..."
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.729"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.772"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textViewG"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:clickable="false"
+        android:gravity="center|left"
+        android:text="Waiting..."
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.729"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.59"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textViewD"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:clickable="false"
+        android:gravity="center|left"
+        android:text="Waiting..."
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.729"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.398"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageViewA"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="This tells whether to decrease or increase the string tuning"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.207"
+        app:srcCompat="@mipmap/question_mark_foreground" />
+
+    <ImageView
+        android:id="@+id/imageViewD"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="This tells whether to decrease or increase the string tuning"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.398"
+        app:srcCompat="@mipmap/question_mark_foreground" />
+
+    <ImageView
+        android:id="@+id/imageViewG"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="This tells whether to decrease or increase the string tuning"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.59"
+        app:srcCompat="@mipmap/question_mark_foreground" />
+
+    <ImageView
+        android:id="@+id/imageViewB"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="This tells whether to decrease or increase the string tuning"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.772"
+        app:srcCompat="@mipmap/question_mark_foreground" />
+
+    <ImageView
+        android:id="@+id/imageViewHighE"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="This tells whether to decrease or increase the string tuning"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955"
+        app:srcCompat="@mipmap/question_mark_foreground" />
+
+    <TextView
+        android:id="@+id/pitchTextView"
+        android:layout_width="132dp"
+        android:layout_height="93dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/buttonLowE"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:focusable="true"
+        android:focusableInTouchMode="false"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="buttonLowEPressed"
+        android:tag="false"
+        android:text="E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.252"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:focusable="auto"
+        android:focusableInTouchMode="false"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="buttonAPressed"
+        android:text="A"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.252"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.207" />
+
+    <Button
+        android:id="@+id/buttonD"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:focusable="auto"
+        android:focusableInTouchMode="false"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="buttonDPressed"
+        android:text="D"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.252"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.398" />
+
+    <Button
+        android:id="@+id/buttonG"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:focusable="auto"
+        android:focusableInTouchMode="false"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="buttonGPressed"
+        android:text="G"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.252"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.59" />
+
+    <Button
+        android:id="@+id/buttonB"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:focusable="auto"
+        android:focusableInTouchMode="false"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="buttonBPressed"
+        android:text="B"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.252"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.772" />
+
+    <Button
+        android:id="@+id/buttonHighE"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:focusable="auto"
+        android:focusableInTouchMode="false"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="buttonHighEPressed"
+        android:text="E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.252"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/buttonStartTuning"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="buttonStartTuningPressed"
+        android:text="START TUNING"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.974"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.948"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageViewLowE"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="This tells whether to decrease or increase the string tuning "
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        app:srcCompat="@mipmap/question_mark_foreground" />
+
+    <TextView
+        android:id="@+id/textViewLowE"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:clickable="false"
+        android:gravity="center|left"
+        android:text="Waiting..."
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.729"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textViewA"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:clickable="false"
+        android:gravity="center|left"
+        android:text="Waiting..."
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.729"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.207"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
